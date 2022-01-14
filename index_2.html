@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="ru-RU">
 <head>
+  <meta name="description" content="Описание сайта которое будетпоявляться при поиске в браузере">
   <meta charset="UTF-8">
   <title>Мое портфолио</title>
+  <link rel="stylesheet" href="style.css ">
   <style>
     BODY {
       background-image : url("https://phonoteka.org/uploads/posts/2021-05/1620076332_27-phonoteka_org-p-fon-dlya-saita-gradient-27.jpg")
@@ -10,24 +12,35 @@
   </style>
 </head>
 <body>
-    <h1>Мой сайт портфолио</h1>
+    <h1 class="section-title" align="center">Мой сайт портфолио</h1>
+    <hr color="white">
     <div>
-      <h2>Мои контакты</h2>
+      <h3> Введите ваши данные </h3>
+      <form action="" method="post">
+        <input type="text" name="Имя ваше" id="name" placeholder="НУ введи логин">
+        <input type="password" name="Пароль ваш" id="password" placeholder="А здесь пароль">
+        <input type="submit" name="submit" id="submit " value="Проверка">
+        <input type="reset"  value="Удалить все">
+
+
+      </form>
+      <h2 style="color : red">Мои контакты</h2>
       <div>
       <ul>
-          <li><a href="">В контакте</a></li>
+          <li><a href="https://vk.com/mr.kolokolnikov " target="_blank" title="Перейти на страницу вк">В контакте</a></li>
           <li><a href="">В инстаграмм</a></li>
           <li><a href="">В ватсапп</a></li>
       </ul>
       </div>
     </div>
     <div>
-      <h2>Обо мне</h2>
+      <h2 class="section-title">Обо мне</h2>
       <div>
-          <img src="img/IMG_4257.jpg" width="160" height="200" alt="Фото Колокольников Роман">
+          <img id="my-ava" src="img/IMG_4257.jpg" width="320" height="400"   alt="Фото Колокольников Роман" title="Колокольников Роман"
+          border="3">
       </div>
       <div>
-        <h3>Моя биография</h3>
+        <h3 class="section-title">Моя биография</h3>
         <div>
           <h4> Детство Романа Колокольникова</h4>
             <div>
@@ -38,7 +51,7 @@
               заметила жена Виктора Ивановича Ермакова - тренера по биатлону и предложила мальчику попробовать себя в
               этом виде спорта.</p>
             </div>
-          <h4>Спортивная карьера Романа</h4>
+          <h4 class="section-title">Спортивная карьера Романа</h4>
             <div>
               <p>По окончании школу Евгений пытался поступить педагогический институт на факультет физической культуры,
               но это ему не удалось, тогда он поступил в Дивногорское училище олимпийского резерва. Спустя год он
@@ -48,9 +61,9 @@
             </div>
         </div>
         <div>
-          <h3>Мои победы на Олимпийских играх</h3>
-          <table border="2" bgcolor="#dcdcdc" align="center" width="70%">
-            <tr>
+          <h3 class="section-title">Мои победы на Олимпийских играх</h3>
+          <table border="1" sellpadding="10" sellspacing="1">
+            <tr bgcolor="#cacaca">
               <th>Год</th>
               <th>Золото</th>
               <th>Серебро</th>
@@ -92,6 +105,67 @@
 
       </div>
     </div>
+<div>
+  <h2 class="section-title">Заказать сайт</h2>
+    <form action="" method="post">
+      <div>
+        <label>Имя клиента
+          <input  type="text" name="client_name" placeholder="Введите имя">
+        </label>
+      </div>
+      <div>
+        <label for="client_email">@-маил</label>
+          <input type="text" id="client_email" name="client_email" placeholder="Введите email">
+      </div>
+      <div>
+        <label> Выберите пол
+          <input type="radio" id="client_gerden" name="gender" value="male"> М
+          <input type="radio" id="client_gerden" name="gender" value="female"> Ж
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Дополнительные возможности</span>
+          <input type="checkbox" name="extra" value="adaptive">Адаптивность
+          <input type="checkbox" name="extra" value="hosting" checked>Установка на хостинг
+          <input type="checkbox" name="extra" value="support">Дальнейшая поддержка
+          <input type="checkbox" name="extra" value="admin">Установка админ-панели
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Тип сайта</span>
+          <select name="type" multiple>
+            <option value="eshop">Интернет-Магазин</option>
+            <option value="landing">Лэндинг</option>
+            <option value="card">Сайт-Визитка</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+         <label>
+           <span>Ваш комментарий</span>
+           <textarea name="comment" cols="30" rows="10" maxlength="200"></textarea>
+         </label>
+       </div>
+      <div>
+        <label>
+          <span>Приложите эскиз</span>
+          <input type="file" name="file">
+        </label>
+      </div>
+      <div>
+        <input type="reset" value="Сброс">
+        <button name="submit">Отправить</button>
+      </div>
+
+
+
+    </form>
+</div>
+
+
 
 </body>
 </html>
