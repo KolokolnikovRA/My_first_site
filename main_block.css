@@ -1,0 +1,134 @@
+.main_block{
+  background-image: url("img/sss_1.png");
+  background-repeat: no-repeat;
+  background-attachment: revert;
+  height: 1000px;
+  width: 1300px;
+  background-position: top center;
+  margin: 0;
+  padding:0;
+}
+.text_block{
+    padding-left: 800px;
+    padding-top: 160px;
+}
+.main_h2{
+  font-size: 60px;
+}
+.main_p{
+  font-family: cursive;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 110px;
+
+}
+.center_block{
+  background: #e6defa;
+  background-image: url("img/sss_2.png");
+  background-repeat: no-repeat;
+  background-attachment: revert;
+  height: 1000px;
+  width: 1300px;
+  background-position:right center;
+  margin: 0;
+  padding:0;
+}
+.text_center{
+  padding-left: 100px;
+  padding-top: 300px;
+}
+.center_h2{
+  font-size: 60px;
+}
+.center_p {
+  font-family: cursive;
+  font-size: 22px;
+}
+.center_block_1{
+  background: #fcf9e8;
+  background-attachment: revert;
+  height: 1000px;
+  width: 1300px;
+  background-position:right center;
+  margin: 0;
+  padding:0;
+}
+.text_center_1{
+  padding-top: 50px;
+  line-height: 30px;
+}
+.center_h3{
+  font-size: 60px;
+  text-align: center;
+}
+.center_p_1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 22px;
+}
+.center_block_2 div{
+  display: inline-block;
+  text-align: center;
+  padding-left: 60px;
+  padding-top: 50px;
+  }
+
+.center_block_2 div h4{
+
+  padding-top: 50px;
+}
+.top_box{
+  width: 1300px;
+  height: 1300px;
+  background: white;
+}
+.tex_box{
+  text-align: center;
+}
+.tex_box h4{
+  font-size: 60px;
+}
+.tex_box p{
+  font-size: 22px;
+}
+.box_box div{
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.knopka{
+  position: relative;
+  background:#ff4f4f;
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 560px;
+}
+.knopka_1{
+  font-size: 22px;
+  color:white;
+  text-decoration:blink ;
+  vertical-align: middle;
+
+}
+.box_2{
+  padding-top: 100px;
+}
+.podval{
+  background: #f8edfc;
+  height:500px;
+}
+.podval_2{
+  display: inline-block;
+  padding-top: 100px;
+  padding-left: 160px;
+  font-size: 22px;
+}
+.podval_3{
+  font-size: 22px;
+  text-align: center;
+  padding-top: 150px;
+}

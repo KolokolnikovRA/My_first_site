@@ -1,170 +1,115 @@
-<!doctype html>
-<html lang="ru-RU">
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta name="description" content="Описание сайта которое будетпоявляться при поиске в браузере">
   <meta charset="UTF-8">
-  <title>Мое портфолио</title>
-  <link rel="stylesheet" href="style.css ">
-  <style>
-    BODY {
-      background-image : url("https://phonoteka.org/uploads/posts/2021-05/1620076332_27-phonoteka_org-p-fon-dlya-saita-gradient-27.jpg")
-    }
-  </style>
+  <title>ЗапомниЭтоЛето</title>
+<link rel="stylesheet" href="main_block.css">
 </head>
 <body>
-    <h1 class="section-title" align="center">Мой сайт портфолио</h1>
-    <hr color="white">
-    <div>
-      <h3> Введите ваши данные </h3>
-      <form action="" method="post">
-        <input type="text" name="Имя ваше" id="name" placeholder="НУ введи логин">
-        <input type="password" name="Пароль ваш" id="password" placeholder="А здесь пароль">
-        <input type="submit" name="submit" id="submit " value="Проверка">
-        <input type="reset"  value="Удалить все">
-
-
-      </form>
-      <h2 style="color : red">Мои контакты</h2>
-      <div>
-      <ul>
-          <li><a href="https://vk.com/mr.kolokolnikov " target="_blank" title="Перейти на страницу вк">В контакте</a></li>
-          <li><a href="">В инстаграмм</a></li>
-          <li><a href="">В ватсапп</a></li>
-      </ul>
-      </div>
-    </div>
-    <div>
-      <h2 class="section-title">Обо мне</h2>
-      <div>
-          <img id="my-ava" src="img/IMG_4257.jpg" width="320" height="400"   alt="Фото Колокольников Роман" title="Колокольников Роман"
-          border="3">
-      </div>
-      <div>
-        <h3 class="section-title">Моя биография</h3>
-        <div>
-          <h4> Детство Романа Колокольникова</h4>
-            <div>
-              <p>Евгений Устюгов родился в Красноярске. Семья у Евгения спортивная, отец Роман Валерьевич - кандидат
-              в мастера спорта по лыжным гонкам, а мать Ольга Рудольфовна - мастер спорта. Под руководством родителей
-              с трёх лет Евгений вместе с братом занимались лыжным спортом. Помимо лыж он увлекался скалолазанием.</p>
-              <p>Учась в школе, Женя принимал участие в спортивных соревнованиях, во время одного из них в 1997 году его
-              заметила жена Виктора Ивановича Ермакова - тренера по биатлону и предложила мальчику попробовать себя в
-              этом виде спорта.</p>
-            </div>
-          <h4 class="section-title">Спортивная карьера Романа</h4>
-            <div>
-              <p>По окончании школу Евгений пытался поступить педагогический институт на факультет физической культуры,
-              но это ему не удалось, тогда он поступил в Дивногорское училище олимпийского резерва. Спустя год он
-              поступил Сибирский государственный технологический университет, где обучался некоторое время, потом
-              перевёлся на лесоинженерный факультет, который закончил в 2010 году.</p>
-              <img src="https://uznayvse.ru/images/stories/uzn_1375821403.jpg" width="1200" height="800"
-            </div>
-        </div>
-        <div>
-          <h3 class="section-title">Мои победы на Олимпийских играх</h3>
-          <table border="1" sellpadding="10" sellspacing="1">
-            <tr bgcolor="#cacaca">
-              <th>Год</th>
-              <th>Золото</th>
-              <th>Серебро</th>
-              <th>Бронза</th>
-            </tr>
-            <tr>
-              <th>2021</th>
-              <td>2</td>
-              <td>3</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <th>2020</th>
-              <td>0</td>
-              <td>3</td>
-              <td>4</td>
-            </tr>
-            <tr>
-              <th>2019</th>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <th>2018</th>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <th>2017</th>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-            </tr>
-
-          </table>
-        </div>
-
-      </div>
-    </div>
-<div>
-  <h2 class="section-title">Заказать сайт</h2>
-    <form action="" method="post">
-      <div>
-        <label>Имя клиента
-          <input  type="text" name="client_name" placeholder="Введите имя">
-        </label>
-      </div>
-      <div>
-        <label for="client_email">@-маил</label>
-          <input type="text" id="client_email" name="client_email" placeholder="Введите email">
-      </div>
-      <div>
-        <label> Выберите пол
-          <input type="radio" id="client_gerden" name="gender" value="male"> М
-          <input type="radio" id="client_gerden" name="gender" value="female"> Ж
-        </label>
-      </div>
-      <div>
-        <label>
-          <span>Дополнительные возможности</span>
-          <input type="checkbox" name="extra" value="adaptive">Адаптивность
-          <input type="checkbox" name="extra" value="hosting" checked>Установка на хостинг
-          <input type="checkbox" name="extra" value="support">Дальнейшая поддержка
-          <input type="checkbox" name="extra" value="admin">Установка админ-панели
-        </label>
-      </div>
-      <div>
-        <label>
-          <span>Тип сайта</span>
-          <select name="type" multiple>
-            <option value="eshop">Интернет-Магазин</option>
-            <option value="landing">Лэндинг</option>
-            <option value="card">Сайт-Визитка</option>
-          </select>
-        </label>
-      </div>
-
-      <div>
-         <label>
-           <span>Ваш комментарий</span>
-           <textarea name="comment" cols="30" rows="10" maxlength="200"></textarea>
-         </label>
-       </div>
-      <div>
-        <label>
-          <span>Приложите эскиз</span>
-          <input type="file" name="file">
-        </label>
-      </div>
-      <div>
-        <input type="reset" value="Сброс">
-        <button name="submit">Отправить</button>
-      </div>
-
-
-
-    </form>
+<div class="main_block">
+  <div class="text_block">
+    <h2 class="main_h2"> Hey sugar!</h2>
+    <p class="main_p">Our cake bakery is small but with a big<br>
+    love for wonderful desserts.</p>
+  </div>
 </div>
 
+<div class="center_block">
+  <div class="text_center">
+    <h2 class="center_h2">Our love, for your <br>
+          love</h2>
+    <p class="center_p">Our bakery is set up to cater spesifocally to the care lover<br>
+    our bakery is open to everyone but only the most special<br>
+    order. It would be great if our bakery can make you get<br>
+    your own cake because that's where our family commes<br>
+    from!</p>
+  </div>
+</div>
+
+
+<div class="center_block_1">
+  <div>>
+    <div class="text_center_1">
+      <h3 class="center_h3">Menu</h3>
+      <p class="center_p_1">The cake is a form of sweet food that is usually baked.<br> Cover a wide range of preparations that can be simple or <br> elaborate.</p>
+   </div>
+  </div>
+  <div class="center_block_2">
+  <div class="cassata">
+    <h4>- Cassata -</h4>
+    <p>Cassata consists of round sponge cake moistened.</p>
+    <p>$7</p>
+    <h4>- Castell -</h4>
+    <p>Cake made of sugar, flour, eggs, and starch syrup.</p>
+    <p>$8</p>
+  </div>
+
+  <div class="fruitcake">
+    <h4>- Fruitcake -</h4>
+    <p>Cassata consists of round sponge cake moistened.</p>
+    <p>$7</p>
+    <h4>- Garash cake -</h4>
+    <p>Garash is a type of chocolate cake in Bulgarian cuisine.</p>
+    <p>$8</p>
+  </div>
+
+
+  <div class="panforte">
+    <h4>- Panforte -</h4>
+    <p>Chewy Italian dessert containing fruits and nuts.</p>
+    <p>$7</p>
+    <h4>- Petit four -</h4>
+    <p>A petit four is a small bite-sized confectionery.</p>
+    <p>$8</p>
+  </div>
+  </div>
+</div>
+
+<div class="top_box">
+  <div class="tex_box">
+    <h4>The taste that you <br> will remember</h4>
+    <p>Our cake bakery is small but with big love for wonderful desserts. <br> Our cakes have all the ingredients
+      for an amazing <br> bakery.
+    </p>
+  </div>
+  <div class="box_box">
+    <div><img src="img/sss_3.jpeg"></div>
+    <div><img src="img/sss_4.jpeg"></div>
+  </div>
+  <div class="tex_box">
+    <h4>Contact us for more <br> details</h4>
+    <p>If you want to know more about our bakery or the team we <br> have working at our bakery, let us know by leaving a
+      <br>messages.
+    </p>
+  </div>
+  <div>
+
+  </div>
+</div>
+<div class="knopka">
+  <a class="knopka_1" href="#addr">Contact us</a>
+</div>
+<div class="box_2">
+  <div>
+    <img src="img/sss_5.png" alt="Картинка" width="100%" height="auto">
+  </div>
+</div>
+
+<div class="podval">
+  <div class="podval_2">
+   <div><p>Phone: 123-456-7890<br>Email: info@sugaro.com</p></div>
+  </div>
+  <div class="podval_2">
+    <div><p> 9737 Streich Squares St.<br> San Francisco, CA 98856</p></div>
+  </div>
+  <div class="podval_2" id="addr">
+    <div><p>Mon - Fri: 9am - 8pm<br>Saturday: 10am - 5pm<br>Sunday: 10am - 5pm
+    </p></div>
+  </div>
+
+  <div class="podval_3"><p>Powered by Zyro.com
+  </p></div>
+</div>
 
 
 </body>
